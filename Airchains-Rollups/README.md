@@ -67,6 +67,9 @@ cd evm-station
 ```shell
 go mod tidy
 ```
+Kendi ağ isminize göre değştirin "corechain"
+
+    export CHAIN_ID=corechain_9000-1
 
 ```shell
 /bin/bash ./scripts/local-setup.sh
@@ -95,7 +98,7 @@ screen -S avail
 ```
 
 - çalıştırınca pub key verecek onu bir yere not edin. 
-
+cd /root/availup
 ```shell
 /bin/bash availup.sh --network "turing" --app_id 36
 ```
