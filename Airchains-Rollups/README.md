@@ -124,7 +124,7 @@ go mod tidy
 ```
 
 - İKİ YER DEĞİŞECEK 
-- DAKEY : VERDİĞİ İLK KEY EVM 
+- DAKEY : avail  pub key 
 - MONİKER : MONİKER İSMİNİZ
 - DA-RPC : avail
 
